@@ -1,12 +1,16 @@
 *{
     background-color:rgb(252, 197, 238);
 }
+input{
+    margin:2px;
+}
 label{
     text-transform:capitalize;
+    text-align:right;
     width:150px;
-    float:right;
+    float:left;
     padding-right:20px;
 }
 textarea,#submit{
-    padding-left: 170px;
+    margin-left: 170px;
 }
