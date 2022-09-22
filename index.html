@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="120">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="keyword" content="go university appication form">
+        <title>go application form</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
     <body>
-        <h1>hello world</h1>
+        <h1>GO UNIVERSITY</h1>
+        <h2>APPLICATION FORM</h2>
+        <form action="www.gouniversity.com" method="post" autocomplete target="_blank">
+            <label for="stuname">name</label>
+            <input type="text" name="stuname" id="stuname"><br>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="date">date of birth</label>
+            <input type="date" name="date" id="date"><br>
+            <label for="mobno">mobile number</label>
+            <input type="number" name="mobno" id="mobno"><br>
+            <label for="address">address</label><br>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+            <label for="hsc">HSC branch</label>
+            <input type="radio" id="hsc" value="bio-maths" name="hsc">bio-maths 
+            <input type="radio" id="hsc" value="bio-cs" name="hsc">bio-cs
+            <input type="radio" id="hsc" value="cs-maths" name="hsc">cs-maths
+            <input type="radio" id="hsc" value="science" name="hsc">science <br>
+            <label for="percen">HSC percentage</label>
+            <input type="number" id="percen" name="percen" value="%">% <br> 
+            <label for="sslcper">SSLC percentage</label>
+            <input type="number" id="sslcper" name="sslcper" value="%">% <br>
+            <label for="course">course</label>
+            <select name="course" id="course">
+                <option value="it">information technology(B.Tech)</option>
+                <option value="cs">computer science(B.E)</option>
+                <option value="eee">electronics and electrical engineering(B.E)</option>
+                <option value="ece">electronics and communication engineering(B.E)</option>
+                <option value="mct">mechatronics engineering(B.E)</option>
+                <option value="mech">mechanical engineering(B.E)</option>
+            </select><br>
+            <input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset">
+
+        </form>
     </body>
 </html>

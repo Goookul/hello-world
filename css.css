@@ -1,0 +1,12 @@
+*{
+    background-color:rgb(252, 197, 238);
+}
+label{
+    text-transform:capitalize;
+    width:150px;
+    float:right;
+    padding-right:20px;
+}
+textarea,#submit{
+    padding-left: 170px;
+}
